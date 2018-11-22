@@ -66,3 +66,19 @@ html {
   border-bottom: 0;
   border-radius: 6px 6px 0 0;
 }
+
+@media print {
+
+  .footer,
+  .no-print,
+  .inset-img {
+    display: none;
+  }
+
+  .book-ends,
+  .chapter-ends {
+    background-color: transparent;
+    color: #000;
+  }
+
+}
