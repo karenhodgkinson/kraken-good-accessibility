@@ -70,8 +70,7 @@ html {
 @media print {
 
   .footer,
-  .no-print,
-  .inset-img {
+  .no-print {
     display: none;
   }
 
@@ -79,6 +78,11 @@ html {
   .chapter-ends {
     background-color: transparent;
     color: #000;
+  }
+
+  .inset-img {
+    border-color: #000;
+    display: none;
   }
 
 }
